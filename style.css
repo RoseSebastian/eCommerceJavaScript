@@ -1,0 +1,28 @@
+.carosel-image {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.item-image {
+  height: 250px;
+  object-fit: contain;
+}
+
+.item-title {
+  height: 50px;
+  overflow: hidden;
+}
+
+.title {
+  height: 100px;
+  overflow: auto;
+}
+
+.text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
