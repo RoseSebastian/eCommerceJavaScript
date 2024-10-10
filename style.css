@@ -26,3 +26,9 @@
   line-clamp: 3;
   -webkit-box-orient: vertical;
 }
+
+.noResults {
+  display: flex;
+  margin: 50px;
+  justify-content: center;
+}
